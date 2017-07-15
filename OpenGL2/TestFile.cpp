@@ -7,7 +7,7 @@ Model torus;
 float angle = 0.0;
 
 void increment() {
-	angle += 0.05;
+	angle += 0.09999;
 	glutPostRedisplay();
 }
 
@@ -18,8 +18,6 @@ void display() {
 	cone.draw(Vector3f(-2, 0, -9), Vector3f(1, 0, 0), angle);
 	glass.draw(Vector3f(2, 0, -9), Vector3f(0, 0, 1), angle);
 	torus.draw(Vector3f(0, 0, -7), Vector3f(1, 0, 0), angle);
-
-
 
 	increment();
 	swapFrameBuffers();
@@ -32,8 +30,8 @@ void init() {
 }
 
 int main(int argc, char** argv) {
-	initializeWindow(argc, argv);
-	createWindow(500, 500, "My Window");
+	initializeGlut(argc, argv);
+	createWindow(500, 500, "KEngine Test Window");
 	setCamera(50, 1, 5, 10);
 	init();
 	monkey = loadModel("monkey.obj");

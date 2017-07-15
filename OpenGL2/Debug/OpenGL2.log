@@ -1,11 +1,13 @@
-﻿  TestFile.cpp
-c:\users\dell\desktop\folders\c++ vs\opengl2\opengl2\testfile.cpp(10): warning C4305: '+=': truncation from 'double' to 'float'
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (OpenGL2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Display.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Vector3f.cpp
   Renderer.cpp
   OBJParser.cpp
+  Models.cpp
   ModelLoader.cpp
   Lights.cpp
   FPSCounter.cpp
-  Display.cpp
-  Generating Code...
-  OpenGL2.vcxproj -> C:\Users\DELL\Desktop\Folders\C++ Vs\OpenGL2\Debug\OpenGL2.exe
-  OpenGL2.vcxproj -> C:\Users\DELL\Desktop\Folders\C++ Vs\OpenGL2\Debug\OpenGL2.pdb (Partial PDB)
+  OpenGL2.vcxproj -> C:\Users\DELL\Desktop\Folders\C++ Vs\OpenGL2\Debug\KEngine.exe
+  OpenGL2.vcxproj -> C:\Users\DELL\Desktop\Folders\C++ Vs\OpenGL2\Debug\KEngine.pdb (Partial PDB)

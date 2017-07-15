@@ -1,6 +1,5 @@
 #include"kengine.h"
 
-
 GLfloat* vertexData;
 GLfloat* normalData;
 

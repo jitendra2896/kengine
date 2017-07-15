@@ -1,16 +1,7 @@
 #include "kengine.h"
-class vertex3 {
-public:
-	float x, y, z;
-	vertex3(float xx, float yy, float zz) {
-		x = xx;
-		y = yy;
-		z = zz;
-	}
-};
 
-vector<vertex3> vertices;
-vector<vertex3> normals;
+vector<Vector3f> vertices;
+vector<Vector3f> normals;
 vector<int> indicesVertex;
 vector<int> indicesNormal;
 
@@ -25,12 +16,12 @@ void parseOBJ(string fileName) {
 		is >> header;
 		if (header == "v") {	//VERTEX DATA
 			is >> x >> y >> z;
-			vertex3 ob(x, y, z);
+			Vector3f ob(x, y, z);
 			vertices.push_back(ob);
 		}
 		else if (header == "vn") {	//VERTEX DATA
 			is >> x >> y >> z;
-			vertex3 ob(x, y, z);
+			Vector3f ob(x, y, z);
 			normals.push_back(ob);
 		}
 		else if (header == "f") {	//VERTEX DATA
