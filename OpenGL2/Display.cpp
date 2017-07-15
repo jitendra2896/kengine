@@ -1,4 +1,4 @@
-#include "OBJLoader.h"
+#include "kengine.h"
 
 void initializeWindow(int argc, char** argv) {
 	glutInit(&argc, argv);

@@ -1,4 +1,4 @@
-#include"OBJLoader.h"
+#include"kengine.h"
 
 void loadLight(Vector3f position, Vector3f color) {
 	GLfloat pos[] = { position.x,position.y,position.z,0 };

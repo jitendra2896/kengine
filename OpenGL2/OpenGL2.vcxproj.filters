@@ -13,12 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{539653bc-7dc0-4929-b91c-b8a777725b81}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OBJParser.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="RobotArm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ModelLoader.cpp">
@@ -39,26 +39,29 @@
     <ClCompile Include="FPSCounter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TestFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="test.txt">
-      <Filter>Source Files</Filter>
+    <Text Include="cone.obj">
+      <Filter>Models</Filter>
     </Text>
-    <Text Include="cone.txt">
-      <Filter>Source Files</Filter>
+    <Text Include="glass.obj">
+      <Filter>Models</Filter>
     </Text>
-    <Text Include="glass.txt">
-      <Filter>Source Files</Filter>
+    <Text Include="torus.obj">
+      <Filter>Models</Filter>
     </Text>
-    <Text Include="torus.txt">
-      <Filter>Source Files</Filter>
+    <Text Include="monkey.obj">
+      <Filter>Models</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="OBJLoader.h">
+    <ClInclude Include="Maths.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Maths.h">
+    <ClInclude Include="kengine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

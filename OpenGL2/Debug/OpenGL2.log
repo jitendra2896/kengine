@@ -1,8 +1,6 @@
-﻿  RobotArm.cpp
-c:\users\dell\desktop\folders\c++ vs\opengl2\opengl2\robotarm.cpp(10): warning C4305: '+=': truncation from 'double' to 'float'
+﻿  TestFile.cpp
+c:\users\dell\desktop\folders\c++ vs\opengl2\opengl2\testfile.cpp(10): warning C4305: '+=': truncation from 'double' to 'float'
   Renderer.cpp
-  Generating Code...
-  Compiling...
   OBJParser.cpp
   ModelLoader.cpp
   Lights.cpp
