@@ -1,0 +1,13 @@
+﻿  RobotArm.cpp
+c:\users\dell\desktop\folders\c++ vs\opengl2\opengl2\robotarm.cpp(10): warning C4305: '+=': truncation from 'double' to 'float'
+  Renderer.cpp
+  Generating Code...
+  Compiling...
+  OBJParser.cpp
+  ModelLoader.cpp
+  Lights.cpp
+  FPSCounter.cpp
+  Display.cpp
+  Generating Code...
+  OpenGL2.vcxproj -> C:\Users\DELL\Desktop\Folders\C++ Vs\OpenGL2\Debug\OpenGL2.exe
+  OpenGL2.vcxproj -> C:\Users\DELL\Desktop\Folders\C++ Vs\OpenGL2\Debug\OpenGL2.pdb (Partial PDB)
